@@ -9,9 +9,6 @@ class AuthApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter OAuth',
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Authenticted User'),
-        ),
         body: Center(
           child: LoginPage(),
         ),
